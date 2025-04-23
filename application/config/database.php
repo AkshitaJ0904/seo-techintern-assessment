@@ -4,13 +4,14 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 $active_group = 'default';
 $query_builder = TRUE;
 
+// Try using the environment variables directly
 $db['default'] = array(
     'dsn'      => '',
-    'hostname' => 'mysql.railway.internal',  // From MYSQLHOST
-    'username' => 'root',                    // From MYSQLUSER
-    'password' => 'eBBazdhuCQD1drrVvCoRuJCNjmzTBbXO', // From MYSQLPASSWORD
-    'database' => 'railway',                 // From MYSQL_DATABASE
-    'port'     => '3306',                    // From MYSQLPORT
+    'hostname' => getenv('MYSQLHOST') ?: 'trolley.proxy.rlwy.net',
+    'username' => getenv('MYSQLUSER') ?: 'root',
+    'password' => getenv('MYSQLPASSWORD') ?: 'eBBazdhuCQD1drrVvCoRuJCNjmzTBbXO',
+    'database' => getenv('MYSQL_DATABASE') ?: 'railway',
+    'port'     => getenv('MYSQLPORT') ?: '13292',
     'dbdriver' => 'mysqli',
     'dbprefix' => '',
     'pconnect' => FALSE,
@@ -24,5 +25,6 @@ $db['default'] = array(
     'compress' => FALSE,
     'stricton' => FALSE,
     'failover' => array(),
-    'save_queries' => TRUE
+    'save_queries' => TRUE,
+    'socket'   => '' // Make sure this is empty to force TCP/IP connection
 );
