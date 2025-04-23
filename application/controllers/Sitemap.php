@@ -7,7 +7,7 @@ class Sitemap extends CI_Controller {
         parent::__construct();
     }
     
-    public function index() {
+    public function sitemap() {
         $data['categories'] = $this->CategoryModel->get_all_categories();
         $data['products'] = $this->ProductModel->get_all_products();
         
