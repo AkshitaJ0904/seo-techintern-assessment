@@ -5,12 +5,12 @@ $active_group = 'default';
 $query_builder = TRUE;
 
 $db['default'] = array(
-    'dsn'   => '',
-    'hostname' => 'localhost',
+    'hostname' => 'trolley.proxy.rlwy.net',
     'username' => 'root',
-    'password' => '',
-    'database' => 'product_listing',
+    'password' => 'eBBazdhuCQD1drrVvCoRuJCNjmzTBbXO',
+    'database' => 'railway',
     'dbdriver' => 'mysqli',
+    'port'     => '13292',
     'dbprefix' => '',
     'pconnect' => FALSE,
     'db_debug' => (ENVIRONMENT !== 'production'),
