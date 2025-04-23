@@ -1,10 +1,6 @@
 <IfModule mod_rewrite.c>
     RewriteEngine On
-    RRewriteBase /
-
-    # Special rule for sitemap.xml
-    RewriteRule ^sitemap\.xml$ sitemap.xml.php [L]
-
+    RewriteBase /
 
     # Remove index.php from URLs
     RewriteCond %{REQUEST_FILENAME} !-f
