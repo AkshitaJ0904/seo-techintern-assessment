@@ -1,6 +1,6 @@
 <IfModule mod_rewrite.c>
     RewriteEngine On
-    RewriteBase /product-listing-platform/
+    RRewriteBase /
 
     # Route sitemap.xml to the sitemap controller
     RewriteRule ^sitemap\.xml$ index.php/sitemap [L]
