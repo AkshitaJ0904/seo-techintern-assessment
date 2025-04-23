@@ -5,11 +5,12 @@ $active_group = 'default';
 $query_builder = TRUE;
 
 $db['default'] = array(
-    'dsn'      => 'mysql:host=trolley.proxy.rlwy.net;port=13292;dbname=railway',
-    'hostname' => '',
-    'username' => 'root',
-    'password' => 'eBBazdhuCQD1drrVvCoRuJCNjmzTBbXO',
-    'database' => '',
+    'dsn'      => '',
+    'hostname' => 'mysql.railway.internal',  // From MYSQLHOST
+    'username' => 'root',                    // From MYSQLUSER
+    'password' => 'eBBazdhuCQD1drrVvCoRuJCNjmzTBbXO', // From MYSQLPASSWORD
+    'database' => 'railway',                 // From MYSQL_DATABASE
+    'port'     => '3306',                    // From MYSQLPORT
     'dbdriver' => 'mysqli',
     'dbprefix' => '',
     'pconnect' => FALSE,
