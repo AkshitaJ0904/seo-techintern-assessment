@@ -1,7 +1,3 @@
-its giving, error not found
-
-so just style the og code only
-
 <?php echo '<?xml version="1.0" encoding="UTF-8" ?>'; ?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <!-- Homepage -->
@@ -29,5 +25,3 @@ so just style the og code only
     </url>
     <?php endforeach; ?>
 </urlset>
-
-do not change naything or add anything just add a bit of color to it
