@@ -8,7 +8,7 @@ $route['translate_uri_dashes'] = FALSE;
 // Public routes
 $route['products/(:any)'] = 'category/view/$1';
 $route['product/(:any)'] = 'product/view/$1';
-$route['sitemap.xml'] = 'sitemap/index';
+$route['sitemap.xml'] = 'sitemap/sitemap';
 
 // Admin routes
 $route['admin'] = 'admin/index';
