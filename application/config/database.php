@@ -5,7 +5,7 @@ $active_group = 'default';
 $query_builder = TRUE;
 
 $db['default'] = array(
-    'hostname' => 'trolley.proxy.rlwy.net',
+    'hostname' => 'mysql.railway.internal',
     'username' => 'root',
     'password' => 'eBBazdhuCQD1drrVvCoRuJCNjmzTBbXO',
     'database' => 'railway',
