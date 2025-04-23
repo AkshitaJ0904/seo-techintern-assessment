@@ -5,7 +5,7 @@ $active_group = 'default';
 $query_builder = TRUE;
 
 // Get the database URL from environment variables
-$db_url = getenv('MYSQL_URL');
+$db_url = getenv('MYSQL_PUBLIC_URL');
 
 if ($db_url) {
     // Parse the database URL
