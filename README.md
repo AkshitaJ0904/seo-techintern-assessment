@@ -15,7 +15,7 @@ This project demonstrates how to programmatically generate SEO-friendly pages fo
 
 1. **Clone** this repo to your local environment:
    ```bash
-   [git clone https://github.com/AkshitaJ0904/seo-product-listing-platform.git](https://github.com/AkshitaJ0904/seo-techintern-assessment.git)
+   [git clone https://github.com/AkshitaJ0904/seo-product-listing-platform.git]
    ```
 
 2. The **database** is already hosted on Railway – connection details are in the config files.
