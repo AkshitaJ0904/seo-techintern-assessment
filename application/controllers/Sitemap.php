@@ -5,6 +5,8 @@ class Sitemap extends CI_Controller {
     
     public function __construct() {
         parent::__construct();
+        $this->load->model('CategoryModel');
+        $this->load->model('ProductModel');
     }
     
     public function sitemap() {
