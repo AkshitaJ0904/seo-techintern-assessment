@@ -47,7 +47,7 @@
                     <div class="col-md-6">
                         <h6>Sitemap</h6>
                         <p>View your sitemap to ensure all pages are indexed properly by search engines.</p>
-                        <a href="<?= base_url('sitemap.xml'); ?>" class="btn btn-sm btn-primary" target="_blank">View Sitemap</a>
+                        <a href="<?= base_url('index.php/sitemap/sitemap'); ?>" class="btn btn-sm btn-primary" target="_blank">View Sitemap</a>
                     </div>
                     <div class="col-md-6">
                         <h6>Robots.txt</h6>
