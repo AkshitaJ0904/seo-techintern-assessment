@@ -19,7 +19,7 @@
                 <div class="col-md-3">
                     <h5>SEO Links</h5>
                     <ul class="list-unstyled">
-                        <li><a href="<?= base_url('sitemap.xml'); ?>" class="text-light">Sitemap</a></li>
+                        <li><a href="<?= base_url('index.php/sitemap/sitemap'); ?>" class="text-light">Sitemap</a></li>
                     </ul>
                 </div>
             </div>
