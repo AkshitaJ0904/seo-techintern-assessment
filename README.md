@@ -1,4 +1,5 @@
-SEO Product Listing Platform
+**SEO Product Listing Platform**
+
 A simple but scalable product listing website built with CodeIgniter that focuses on SEO best practices. This project demonstrates how to programmatically generate SEO-friendly pages for e-commerce sites.
 Setup
 
