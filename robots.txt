@@ -12,4 +12,4 @@ Allow: /sitemap.xml
 Crawl-delay: 10
 
 # Sitemap location
-Sitemap: https://www.yourdomain.com/sitemap.xml
+Sitemap: https://web-production-49134.up.railway.app/sitemap.xml
