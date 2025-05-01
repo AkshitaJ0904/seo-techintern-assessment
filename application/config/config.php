@@ -65,7 +65,7 @@ $config['cache_query_string'] = FALSE;
 
 $config['encryption_key'] = 'LYq3AyJK4zDqTmyJHb8dZeH5kVg6wN7r';
 
-/
+
 $config['sess_driver'] = 'files';
 $config['sess_cookie_name'] = 'ci_session';
 $config['sess_expiration'] = 7200;
